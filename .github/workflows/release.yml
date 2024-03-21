@@ -8,12 +8,12 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout project
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
 
       - name: Release project
         uses: corentin-regent/poetrel@9eddc411a58d8f5ef87b1e6602f30ad209ed4aba
