@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.PAT }}
 
       - name: Release project
-        uses: corentin-regent/poetrel@v1
+        uses: corentin-regent/poetrel@4092e7436513ded29fa858ec4d1993623268fcaf
         with:
           changelog: CHANGELOG.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
