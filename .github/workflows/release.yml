@@ -1,0 +1,22 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
+      - name: Release project
+        uses: corentin-regent/poetrel@v1
+        with:
+          changelog: CHANGELOG.md
+          github-token: ${{ secrets.GITHUB_TOKEN }}
