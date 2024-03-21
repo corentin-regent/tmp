@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Release project
-        uses: corentin-regent/poetrel@8322849cd274bb03278719373a0084098079623a
+        uses: corentin-regent/poetrel@c5762dfb8efb5ba641eec88b19027991c45387b6
         with:
           changelog: CHANGELOG.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
