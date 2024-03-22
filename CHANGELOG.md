@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.0.1b0
+
 Making another test.
 
 ## 0.0.1a0
