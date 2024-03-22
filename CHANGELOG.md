@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-'Test' between "Quotes"
+'Test' between "Quotes".
 
 ## 0.0.0
 
