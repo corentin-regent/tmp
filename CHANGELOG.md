@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.0.0
+
 Test publishing to PyPI
 
 ## 0.0.1b0
