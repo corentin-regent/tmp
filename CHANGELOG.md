@@ -2,8 +2,6 @@
 
 ## Unreleased
 
-## 2.0.0
-
 Test sync develop with main
 
 ## 1.0.0
