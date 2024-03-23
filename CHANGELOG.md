@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Test sync develop with main
+
 ## 1.0.0
 
 Test publishing to PyPI
