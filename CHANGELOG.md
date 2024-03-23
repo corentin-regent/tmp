@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Test publishing to PyPI
+
 ## 0.0.1b0
 
 Making another test.
