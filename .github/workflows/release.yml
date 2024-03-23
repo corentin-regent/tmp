@@ -32,7 +32,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: develop
-          token: ${{ secrets.PAT }}
 
       - name: Synchronize develop branch
         run: |
