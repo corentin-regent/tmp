@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tmp"
+name = "corentin-regent-tmp"
 version = "0.0.1b0"
 description = "My test project"
 authors = ["Corentin Régent <corentin.regent@gmail.com>"]
