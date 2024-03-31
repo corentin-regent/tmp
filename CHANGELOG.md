@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Added branch policies
+
 ## 2.0.1rc0
 
 Testing again
