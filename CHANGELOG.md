@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-Added branch policies
+Added branch policies & PAT authentication
 
 ## 2.0.1rc0
 
