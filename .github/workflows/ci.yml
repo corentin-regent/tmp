@@ -1,0 +1,17 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/ci.yml"
+  push:
+    branches:
+      - main
+
+jobs:
+  dummy:
+    name: Dummy job
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo 1
