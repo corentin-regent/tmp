@@ -9,8 +9,10 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Sync labels with GitHub
         uses: corentin-regent/poetrel/sync-labels@develop
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          owner: ${{ github.repository_owner }}
