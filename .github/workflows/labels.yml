@@ -1,0 +1,14 @@
+name: Synchronize Poetrel labels
+
+on:
+  schedule:
+    - cron: '* * */1 * *'  # once a day
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync labels with GitHub
+        uses: corentin-regent/poetrel/sync-labels@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
