@@ -16,6 +16,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Sync labels with GitHub
-        uses: corentin-regent/poetrel/sync-labels@develop
+        uses: corentin-regent/poetrel/sync-labels@sync-labels
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
