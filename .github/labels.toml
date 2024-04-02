@@ -1,44 +1,44 @@
-["poetrel:major"]
-color = "ff0000"
-name = "poetrel:major"
-description = "Release a new major version"
+[bug]
+color = "d73a4a"
+name = "bug"
+description = "Something isn't working"
 
-["poetrel:minor"]
-color = "ff7f00"
-name = "poetrel:minor"
-description = "Release a new minor version"
+[documentation]
+color = "0075ca"
+name = "documentation"
+description = "Improvements or additions to documentation"
 
-["poetrel:no-bump"]
-color = "0000ff"
-name = "poetrel:no-bump"
-description = "Release without bumping the pyproject.toml version"
+[duplicate]
+color = "cfd3d7"
+name = "duplicate"
+description = "This issue or pull request already exists"
 
-["poetrel:patch"]
-color = "ffff00"
-name = "poetrel:patch"
-description = "Release a new patch version"
+[enhancement]
+color = "a2eeef"
+name = "enhancement"
+description = "New feature or request"
 
-["poetrel:premajor"]
-color = "7f0000"
-name = "poetrel:premajor"
-description = "Release a pre-major version"
+["good first issue"]
+color = "7057ff"
+name = "good first issue"
+description = "Good for newcomers"
 
-["poetrel:preminor"]
-color = "7f3f00"
-name = "poetrel:preminor"
-description = "Release a pre-minor version"
+["help wanted"]
+color = "008672"
+name = "help wanted"
+description = "Extra attention is needed"
 
-["poetrel:prepatch"]
-color = "7f7f00"
-name = "poetrel:prepatch"
-description = "Release a pre-patch version"
+[invalid]
+color = "e4e669"
+name = "invalid"
+description = "This doesn't seem right"
 
-["poetrel:prerelease"]
-color = "00ff00"
-name = "poetrel:prerelease"
-description = "Release a pre-release version"
+[question]
+color = "d876e3"
+name = "question"
+description = "Further information is requested"
 
-["poetrel:prerelease --next-phase"]
-color = "007f00"
-name = "poetrel:prerelease --next-phase"
-description = "Release a pre-release version with incremented phase"
+[wontfix]
+color = "ffffff"
+name = "wontfix"
+description = "This will not be worked on"
