@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.1.0
+
 Testing.
 
 ## 2.0.2
