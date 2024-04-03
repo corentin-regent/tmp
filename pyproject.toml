@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "corentin-regent-tmp"
-version = "2.0.1"
+version = "2.0.2"
 description = "My test project"
 authors = ["Corentin Régent <corentin.regent@gmail.com>"]
 readme = "README.md"
