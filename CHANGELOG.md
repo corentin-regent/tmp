@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.0.2
+
 Testing poetrel@no-auto-commit
 
 ## 2.0.1
