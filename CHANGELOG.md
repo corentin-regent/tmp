@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Testing poetrel@no-auto-commit
+
 ## 2.0.1
 
 Added branch policies & PAT authentication
