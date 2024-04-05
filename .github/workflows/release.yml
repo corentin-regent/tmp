@@ -21,3 +21,4 @@ jobs:
         uses: corentin-regent/poetrel/release-gh-action@auto-release
         with:
           changelog: CHANGELOG.md
+          github-token: ${{ secrets.GITHUB_TOKEN }}
