@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-Test bump major tag
+Test bump major tag.
 
 ## 2.6.0
 
