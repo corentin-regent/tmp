@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 2.2.0
+
 Test poetrel/release-gh-action
 
 ## 2.1.0
