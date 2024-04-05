@@ -20,7 +20,7 @@ jobs:
           token: ${{ secrets.PAT }}
 
       - name: Release
-        uses: corentin-regent/poetrel/release-gh-action@develop
+        uses: corentin-regent/poetrel/release-gh-action@v1
         with:
           changelog: CHANGELOG.md
           github-token: ${{ secrets.GITHUB_TOKEN }}
