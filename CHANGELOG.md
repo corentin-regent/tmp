@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+Nothing changed yet.
+
+## 3.0.0
+
 Test
 
 ## 2.6.1
