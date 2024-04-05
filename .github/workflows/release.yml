@@ -7,39 +7,17 @@ on:
 
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout project
+      - name: Check out repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
 
-      - name: Release project
-        uses: corentin-regent/poetrel@no-auto-commit
+      - name: Release
+        uses: corentin-regent/poetrel/release-gh-action@auto-release
         with:
           changelog: CHANGELOG.md
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-  post-release:
-    name: Post Release
-    runs-on: ubuntu-latest
-    needs: release
-
-    steps:
-      - name: Check out develop
-        uses: actions/checkout@v4
-        with:
-          ref: develop
-          token: ${{ secrets.PAT }}
-
-      - name: Synchronize develop branch
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git fetch origin main
-          git merge origin/main
-          git push
