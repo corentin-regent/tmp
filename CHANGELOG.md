@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-Testing
+Testing.
 
 ## 2.3.0
 
